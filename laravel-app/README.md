@@ -1,14 +1,15 @@
+<<<<<<< HEAD
 # docker-laravel-app
 Dockerfile to build laravel app and docker-compose file to define, create and manage services. <br>
 link to the laravel app repo: https://github.com/f1amy/laravel-realworld-example-app
 
 ### Dockerfile
 - Built on ubuntu image.
-- Installs apache2 and other dependencies.
+- Installs nginx and other dependencies.
 - Copies source files for laravel app onto image.
 - Installs laravel.
-- Sets up apache2.
-- Starts apache2.
+- Sets up nginx.
+- Starts nginx.
 
 ### docker-compose.yml
 - Laravel app service.
@@ -19,8 +20,8 @@ link to the laravel app repo: https://github.com/f1amy/laravel-realworld-example
 ### laravel-realworld-example-app
 - Source files for laravel app.
 
-### laravel.conf
-- Apache2 configurations for laravel app.
+### laravel
+- Nginx configurations for laravel app.
 
 ### .env.example
 - Example env file.
@@ -65,3 +66,6 @@ Landing Page:
 
 Endpoints:
 ![endpoint](./result-endpoints.png)
+=======
+# dockerfile-test
+>>>>>>> 93738dece03d8fe5fd808a0fd7a0dadf115dd195
