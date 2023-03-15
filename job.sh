@@ -36,13 +36,13 @@ echo 'export PATH=$PATH:$HOME/bin' >> ~/.bashrc
 
 aws-iam-authenticator help
 
-sudo apt install unzip
+apt install unzip
 
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 
 unzip awscliv2.zip
 
-sudo ./aws/install
+./aws/install
 
 mkdir ~/.aws/
 
