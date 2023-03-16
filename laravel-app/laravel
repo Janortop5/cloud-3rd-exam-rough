@@ -28,4 +28,8 @@ server {
     location ~ /\.(?!well-known).* {
         deny all;
     }
+
+    location /metrics {
+        stub_status on;
+    }    
 }
